@@ -1,0 +1,2388 @@
+{
+  "manifest_version": 1,
+  "phase": "6B",
+  "kind": "catalogue-import-manifest",
+  "notes": [
+    "Generated from the frontend modules; do not edit by hand.",
+    "Only verified local-image records are selected. External Pexels records are excluded and never imported.",
+    "The Wallpaper model has no author or collection field; attribution is preserved here for a future schema decision.",
+    "Tag order is the order declared on each record; global tags are sorted by slug."
+  ],
+  "source": {
+    "aggregate_module": "Front End Project/src/data/catalog.js",
+    "modules": [
+      {
+        "path": "Front End Project/src/data/catalog.js",
+        "sha256": "b85c91eb4d614b45a532fcd04b560b84d150948b61d4aaf214f14400b2e386c2"
+      },
+      {
+        "path": "Front End Project/src/data/wallpapers.js",
+        "sha256": "6b36c389c6dc16b1ac78ac02bfa7e49c86b4993c09ab1137b96f1423818ab013"
+      },
+      {
+        "path": "Front End Project/src/data/newWallpapers.js",
+        "sha256": "bf8990b0be7e79c119899657739d9d564d1ef52946451adf1bdb3b51935c2802"
+      }
+    ],
+    "total_records": 56,
+    "original_records": 24,
+    "added_records": 32
+  },
+  "selection": {
+    "policy": "verified-local-image-records-only",
+    "selected": 32,
+    "excluded": 24,
+    "excluded_records": [
+      {
+        "source_id": 1,
+        "title": "Seoul Street Art",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 2,
+        "title": "Akihabara Neon Night",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 3,
+        "title": "Tokyo Night Streets",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 4,
+        "title": "Japanese Alleyway",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 5,
+        "title": "Shinjuku Neon Glow",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 6,
+        "title": "Tokyo Neon Signs",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 7,
+        "title": "Dark Fluid Gradient",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 8,
+        "title": "Expressionist Splash",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 9,
+        "title": "Marble Swirl Texture",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 10,
+        "title": "Digital Expressionism",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 11,
+        "title": "Acrylic Paint Vortex",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 12,
+        "title": "Fluid Color Streams",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 13,
+        "title": "Geometric Shapes Dark",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 14,
+        "title": "Modern Facade",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 15,
+        "title": "Dark Spiral Art",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 16,
+        "title": "Elegant Gray Waves",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 17,
+        "title": "Abstract Lines",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 18,
+        "title": "Ceiling Geometry",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 19,
+        "title": "Rainbow LED Tubes",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 20,
+        "title": "Iridescent Fabric",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 21,
+        "title": "Violet Pink Lights",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 22,
+        "title": "Neon Gradient Art",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 23,
+        "title": "Pink Purple Gradient",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      },
+      {
+        "source_id": 24,
+        "title": "Neon Prism Effect",
+        "reason": "external-url-unverified",
+        "detail": "External image URL with no per-record author or licence metadata; not imported in this phase."
+      }
+    ]
+  },
+  "summary": {
+    "categories": 5,
+    "tags": 62,
+    "license_coverage": {
+      "CC BY-SA 4.0": 16,
+      "LGPLv3": 16
+    }
+  },
+  "categories": [
+    {
+      "name": "Abstract",
+      "slug": "abstract",
+      "records": 15
+    },
+    {
+      "name": "Illustration",
+      "slug": "illustration",
+      "records": 3
+    },
+    {
+      "name": "Minimalist",
+      "slug": "minimalist",
+      "records": 3
+    },
+    {
+      "name": "Nature",
+      "slug": "nature",
+      "records": 9
+    },
+    {
+      "name": "Space",
+      "slug": "space",
+      "records": 2
+    }
+  ],
+  "tags": [
+    {
+      "name": "amber",
+      "slug": "amber",
+      "records": 1
+    },
+    {
+      "name": "autumn",
+      "slug": "autumn",
+      "records": 2
+    },
+    {
+      "name": "blue",
+      "slug": "blue",
+      "records": 6
+    },
+    {
+      "name": "boats",
+      "slug": "boats",
+      "records": 1
+    },
+    {
+      "name": "bokeh",
+      "slug": "bokeh",
+      "records": 1
+    },
+    {
+      "name": "clouds",
+      "slug": "clouds",
+      "records": 1
+    },
+    {
+      "name": "cold",
+      "slug": "cold",
+      "records": 1
+    },
+    {
+      "name": "colorful",
+      "slug": "colorful",
+      "records": 1
+    },
+    {
+      "name": "cyan",
+      "slug": "cyan",
+      "records": 1
+    },
+    {
+      "name": "dark",
+      "slug": "dark",
+      "records": 1
+    },
+    {
+      "name": "flow",
+      "slug": "flow",
+      "records": 1
+    },
+    {
+      "name": "fold",
+      "slug": "fold",
+      "records": 2
+    },
+    {
+      "name": "forest",
+      "slug": "forest",
+      "records": 2
+    },
+    {
+      "name": "geometric",
+      "slug": "geometric",
+      "records": 3
+    },
+    {
+      "name": "gradient",
+      "slug": "gradient",
+      "records": 2
+    },
+    {
+      "name": "graphic",
+      "slug": "graphic",
+      "records": 3
+    },
+    {
+      "name": "green",
+      "slug": "green",
+      "records": 2
+    },
+    {
+      "name": "hands",
+      "slug": "hands",
+      "records": 1
+    },
+    {
+      "name": "hills",
+      "slug": "hills",
+      "records": 1
+    },
+    {
+      "name": "ice",
+      "slug": "ice",
+      "records": 1
+    },
+    {
+      "name": "illustration",
+      "slug": "illustration",
+      "records": 3
+    },
+    {
+      "name": "iridescent",
+      "slug": "iridescent",
+      "records": 1
+    },
+    {
+      "name": "kite",
+      "slug": "kite",
+      "records": 1
+    },
+    {
+      "name": "lake",
+      "slug": "lake",
+      "records": 1
+    },
+    {
+      "name": "lavender",
+      "slug": "lavender",
+      "records": 1
+    },
+    {
+      "name": "layered",
+      "slug": "layered",
+      "records": 2
+    },
+    {
+      "name": "leaf",
+      "slug": "leaf",
+      "records": 1
+    },
+    {
+      "name": "light",
+      "slug": "light",
+      "records": 2
+    },
+    {
+      "name": "magenta",
+      "slug": "magenta",
+      "records": 1
+    },
+    {
+      "name": "meteors",
+      "slug": "meteors",
+      "records": 1
+    },
+    {
+      "name": "minimal",
+      "slug": "minimal",
+      "records": 1
+    },
+    {
+      "name": "mist",
+      "slug": "mist",
+      "records": 1
+    },
+    {
+      "name": "monochrome",
+      "slug": "monochrome",
+      "records": 2
+    },
+    {
+      "name": "mountain",
+      "slug": "mountain",
+      "records": 1
+    },
+    {
+      "name": "mountains",
+      "slug": "mountains",
+      "records": 1
+    },
+    {
+      "name": "night",
+      "slug": "night",
+      "records": 2
+    },
+    {
+      "name": "orange",
+      "slug": "orange",
+      "records": 2
+    },
+    {
+      "name": "pastel",
+      "slug": "pastel",
+      "records": 3
+    },
+    {
+      "name": "pier",
+      "slug": "pier",
+      "records": 2
+    },
+    {
+      "name": "pink",
+      "slug": "pink",
+      "records": 2
+    },
+    {
+      "name": "planes",
+      "slug": "planes",
+      "records": 1
+    },
+    {
+      "name": "quiet",
+      "slug": "quiet",
+      "records": 1
+    },
+    {
+      "name": "red",
+      "slug": "red",
+      "records": 1
+    },
+    {
+      "name": "ribbon",
+      "slug": "ribbon",
+      "records": 1
+    },
+    {
+      "name": "ribbons",
+      "slug": "ribbons",
+      "records": 1
+    },
+    {
+      "name": "ridge",
+      "slug": "ridge",
+      "records": 1
+    },
+    {
+      "name": "sculptural",
+      "slug": "sculptural",
+      "records": 1
+    },
+    {
+      "name": "shore",
+      "slug": "shore",
+      "records": 1
+    },
+    {
+      "name": "sky",
+      "slug": "sky",
+      "records": 1
+    },
+    {
+      "name": "stars",
+      "slug": "stars",
+      "records": 1
+    },
+    {
+      "name": "sunset",
+      "slug": "sunset",
+      "records": 3
+    },
+    {
+      "name": "teal",
+      "slug": "teal",
+      "records": 1
+    },
+    {
+      "name": "texture",
+      "slug": "texture",
+      "records": 2
+    },
+    {
+      "name": "trail",
+      "slug": "trail",
+      "records": 1
+    },
+    {
+      "name": "travel",
+      "slug": "travel",
+      "records": 1
+    },
+    {
+      "name": "tree",
+      "slug": "tree",
+      "records": 1
+    },
+    {
+      "name": "violet",
+      "slug": "violet",
+      "records": 3
+    },
+    {
+      "name": "warm",
+      "slug": "warm",
+      "records": 1
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "records": 3
+    },
+    {
+      "name": "waterfall",
+      "slug": "waterfall",
+      "records": 1
+    },
+    {
+      "name": "wave",
+      "slug": "wave",
+      "records": 3
+    },
+    {
+      "name": "waves",
+      "slug": "waves",
+      "records": 1
+    }
+  ],
+  "records": [
+    {
+      "source_id": 25,
+      "title": "Altai",
+      "slug": "altai",
+      "description": "Layered geometric peaks in cool blue and pale light.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "geometric",
+          "slug": "geometric"
+        },
+        {
+          "name": "mountains",
+          "slug": "mountains"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/altai.jpg",
+        "public_url": "/wallpapers/kde/altai.jpg",
+        "sha256": "7c310bd49146947c58203dbbab52452474fe061b14ee92aed0cf6886deae0128",
+        "file_size": 170441,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Altai/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Alesya Khoteeva",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Altai/contents/images/5120x2880.png",
+          "original_sha256": "43427a48cb43556a65ba583b3ebc98cfc89419c83723635543ff4c973c488eda",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "7c310bd49146947c58203dbbab52452474fe061b14ee92aed0cf6886deae0128",
+          "blob_sha": "9c3b2f799f56d0975cd31834d7a79b2db4afc04c",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 26,
+      "title": "Autumn 5.5",
+      "slug": "autumn-55",
+      "description": "A softly blurred autumn leaf dissolving into warm light.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "autumn",
+          "slug": "autumn"
+        },
+        {
+          "name": "bokeh",
+          "slug": "bokeh"
+        },
+        {
+          "name": "warm",
+          "slug": "warm"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/autumn.jpg",
+        "public_url": "/wallpapers/kde/autumn.jpg",
+        "sha256": "dfded25df13f5c2dfee68cafb23f69c3efb32b8a6931d82ebbe42de9810dd1e4",
+        "file_size": 744777,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Autumn/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "RJ Quiralta",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Autumn/contents/images/2560x1600.jpg",
+          "original_sha256": "dfded25df13f5c2dfee68cafb23f69c3efb32b8a6931d82ebbe42de9810dd1e4",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "dfded25df13f5c2dfee68cafb23f69c3efb32b8a6931d82ebbe42de9810dd1e4",
+          "blob_sha": "099c91cea1efc70c4891cc70c8752a7d60324b78",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 27,
+      "title": "By the water",
+      "slug": "by-the-water",
+      "description": "A quiet pier reaches into still water at sunset.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "pier",
+          "slug": "pier"
+        },
+        {
+          "name": "sunset",
+          "slug": "sunset"
+        },
+        {
+          "name": "water",
+          "slug": "water"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/bythewater.jpg",
+        "public_url": "/wallpapers/kde/bythewater.jpg",
+        "sha256": "cf8947583a16d80b83851420f14a15ebea080e7babb9c7cc4cc08b2bfd1e72b6",
+        "file_size": 480748,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/BytheWater/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Maciej Wiklo",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "BytheWater/contents/images/2560x1600.jpg",
+          "original_sha256": "cf8947583a16d80b83851420f14a15ebea080e7babb9c7cc4cc08b2bfd1e72b6",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "cf8947583a16d80b83851420f14a15ebea080e7babb9c7cc4cc08b2bfd1e72b6",
+          "blob_sha": "15682471592230af1672355a4c8f78fe490940e0",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 28,
+      "title": "Canopée",
+      "slug": "canopee",
+      "description": "Sweeping green and gold forms curl across a deep teal field.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "flow",
+          "slug": "flow"
+        },
+        {
+          "name": "green",
+          "slug": "green"
+        },
+        {
+          "name": "waves",
+          "slug": "waves"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/canopee.jpg",
+        "public_url": "/wallpapers/kde/canopee.jpg",
+        "sha256": "a27aec466e1cff49e8290f9af0c328ced86dc8862d836d3c37ecb7f26dc8b398",
+        "file_size": 327296,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Canopee/contents/images/3840x2160.png",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Ken Vermette",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Canopee/contents/images/3840x2160.png",
+          "original_sha256": "c74a78811f90f56eb5346fb40b34499723fe10091d005948d0b1446a17736f30",
+          "original_width": 3840,
+          "original_height": 2160,
+          "original_format": "PNG",
+          "delivered_sha256": "a27aec466e1cff49e8290f9af0c328ced86dc8862d836d3c37ecb7f26dc8b398",
+          "blob_sha": "09783f6d565d68b5e41689e1d7c977f557135303",
+          "modification": "Resized from 3840x2160 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 29,
+      "title": "Cluster",
+      "slug": "cluster",
+      "description": "A dark lattice of coral and slate fragments.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "dark",
+          "slug": "dark"
+        },
+        {
+          "name": "geometric",
+          "slug": "geometric"
+        },
+        {
+          "name": "texture",
+          "slug": "texture"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/cluster.jpg",
+        "public_url": "/wallpapers/kde/cluster.jpg",
+        "sha256": "99ae3f1a197524aa5a36734d2e3b9eba31ff466f30463927dcda3296037a4f6a",
+        "file_size": 240109,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Cluster/contents/images/3840x2160.png",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Ken Vermette",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Cluster/contents/images/3840x2160.png",
+          "original_sha256": "d0fddf66e7525117ba6f71a26875baa6ec4f68194c655f21726728620a92f274",
+          "original_width": 3840,
+          "original_height": 2160,
+          "original_format": "PNG",
+          "delivered_sha256": "99ae3f1a197524aa5a36734d2e3b9eba31ff466f30463927dcda3296037a4f6a",
+          "blob_sha": "6b21a862979de67e540e820b6573d20730600409",
+          "modification": "Resized from 3840x2160 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 30,
+      "title": "Coast",
+      "slug": "coast",
+      "description": "A sculptural blue wave against a rose-colored sky.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "pink",
+          "slug": "pink"
+        },
+        {
+          "name": "sculptural",
+          "slug": "sculptural"
+        },
+        {
+          "name": "wave",
+          "slug": "wave"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/coast.jpg",
+        "public_url": "/wallpapers/kde/coast.jpg",
+        "sha256": "b4f5933d5c3a628348897d0e93e954f8b6984720741425395f5fa58aae1310a3",
+        "file_size": 238928,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Coast/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Krystian Zajdel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Coast/contents/images/5120x2880.png",
+          "original_sha256": "79257b5ffd20d9c108161166850cd30b711f4fdffa04cf3e97a4ecf8c151b2df",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "b4f5933d5c3a628348897d0e93e954f8b6984720741425395f5fa58aae1310a3",
+          "blob_sha": "b8b6b682b198c7cb7bff571879aeed2822ec9c61",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 31,
+      "title": "Cold Ripple",
+      "slug": "cold-ripple",
+      "description": "A black-and-white pier dissolves into a monochrome horizon.",
+      "category": {
+        "name": "Minimalist",
+        "slug": "minimalist"
+      },
+      "tags": [
+        {
+          "name": "monochrome",
+          "slug": "monochrome"
+        },
+        {
+          "name": "pier",
+          "slug": "pier"
+        },
+        {
+          "name": "quiet",
+          "slug": "quiet"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/coldripple.jpg",
+        "public_url": "/wallpapers/kde/coldripple.jpg",
+        "sha256": "05bef6722fc0ed81292cceb3ed026c38d17e510f3c84be7d68610c2b1a723c3f",
+        "file_size": 526600,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/ColdRipple/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Risto Saukonpää",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "ColdRipple/contents/images/2560x1600.jpg",
+          "original_sha256": "05bef6722fc0ed81292cceb3ed026c38d17e510f3c84be7d68610c2b1a723c3f",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "05bef6722fc0ed81292cceb3ed026c38d17e510f3c84be7d68610c2b1a723c3f",
+          "blob_sha": "8ad7d107a647034b203f608fd9e15110556a93e2",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 32,
+      "title": "Darkest Hour",
+      "slug": "darkest-hour",
+      "description": "A misty forest fades into deep blue dusk.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "forest",
+          "slug": "forest"
+        },
+        {
+          "name": "mist",
+          "slug": "mist"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/darkesthour.jpg",
+        "public_url": "/wallpapers/kde/darkesthour.jpg",
+        "sha256": "8e3703fae3a3c217b1fc2b399b706cd3720584268d071ba153e4809daa55f1ce",
+        "file_size": 318080,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/DarkestHour/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Risto Saukonpää",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "DarkestHour/contents/images/2560x1600.jpg",
+          "original_sha256": "8e3703fae3a3c217b1fc2b399b706cd3720584268d071ba153e4809daa55f1ce",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "8e3703fae3a3c217b1fc2b399b706cd3720584268d071ba153e4809daa55f1ce",
+          "blob_sha": "17ad3301014276af1df253642470358c6f518a3e",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 33,
+      "title": "Elarun",
+      "slug": "elarun",
+      "description": "A deep blue gradient crossed by a single luminous fold.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "gradient",
+          "slug": "gradient"
+        },
+        {
+          "name": "light",
+          "slug": "light"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/elarun.png",
+        "public_url": "/wallpapers/kde/elarun.png",
+        "sha256": "53d17a4af75286df12578fcb65f2dbf2e8f4dd4de4a0b988a3a70ef16a779f60",
+        "file_size": 1048284,
+        "width": 2560,
+        "height": 1600,
+        "format": "PNG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Elarun/contents/images/2560x1600.png",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Nuno Pinheiro",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Elarun/contents/images/2560x1600.png",
+          "original_sha256": "53d17a4af75286df12578fcb65f2dbf2e8f4dd4de4a0b988a3a70ef16a779f60",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "PNG",
+          "delivered_sha256": "53d17a4af75286df12578fcb65f2dbf2e8f4dd4de4a0b988a3a70ef16a779f60",
+          "blob_sha": "d98ce5b12ed31f946040659aa7a090cd9bd7f3fd",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 34,
+      "title": "Evening Glow",
+      "slug": "evening-glow",
+      "description": "Boats rest beneath a glowing sunset over calm water.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "boats",
+          "slug": "boats"
+        },
+        {
+          "name": "sunset",
+          "slug": "sunset"
+        },
+        {
+          "name": "water",
+          "slug": "water"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/eveningglow.jpg",
+        "public_url": "/wallpapers/kde/eveningglow.jpg",
+        "sha256": "586682dcb362b9f620068f10138f87d0d3649939aef238adc5807cb951976a7a",
+        "file_size": 632699,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/EveningGlow/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Ian Hex",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "EveningGlow/contents/images/2560x1600.jpg",
+          "original_sha256": "586682dcb362b9f620068f10138f87d0d3649939aef238adc5807cb951976a7a",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "586682dcb362b9f620068f10138f87d0d3649939aef238adc5807cb951976a7a",
+          "blob_sha": "951ea596eb4a8385d0f82f496d60cf8ede0aef4a",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 35,
+      "title": "Fallen Leaf",
+      "slug": "fallen-leaf",
+      "description": "An amber leaf rests among autumn leaves.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "amber",
+          "slug": "amber"
+        },
+        {
+          "name": "autumn",
+          "slug": "autumn"
+        },
+        {
+          "name": "leaf",
+          "slug": "leaf"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/fallenleaf.jpg",
+        "public_url": "/wallpapers/kde/fallenleaf.jpg",
+        "sha256": "95603a6560c7e8d50e0e03b3f4adbe39c5258c72528e74e4ecaea1daf4e499de",
+        "file_size": 543137,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/FallenLeaf/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Martin Klapetek",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "FallenLeaf/contents/images/2560x1600.jpg",
+          "original_sha256": "95603a6560c7e8d50e0e03b3f4adbe39c5258c72528e74e4ecaea1daf4e499de",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "95603a6560c7e8d50e0e03b3f4adbe39c5258c72528e74e4ecaea1daf4e499de",
+          "blob_sha": "4c147cfa451012e215281a372158daad96bbad42",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 36,
+      "title": "Grey",
+      "slug": "grey",
+      "description": "Layers of black and white ribbons fold into shadow.",
+      "category": {
+        "name": "Minimalist",
+        "slug": "minimalist"
+      },
+      "tags": [
+        {
+          "name": "monochrome",
+          "slug": "monochrome"
+        },
+        {
+          "name": "ribbons",
+          "slug": "ribbons"
+        },
+        {
+          "name": "texture",
+          "slug": "texture"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/grey.jpg",
+        "public_url": "/wallpapers/kde/grey.jpg",
+        "sha256": "88c31d8944b7e6935d1b9a296654c692f0772cb512491713eb30a972a604c0ed",
+        "file_size": 234512,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Grey/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Sigi Sagi",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Grey/contents/images/2560x1600.jpg",
+          "original_sha256": "88c31d8944b7e6935d1b9a296654c692f0772cb512491713eb30a972a604c0ed",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "88c31d8944b7e6935d1b9a296654c692f0772cb512491713eb30a972a604c0ed",
+          "blob_sha": "7d153a0017589df71b006e6e2834c01e81858404",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 37,
+      "title": "Honeywave",
+      "slug": "honeywave",
+      "description": "Hands reach through warm orange and indigo shapes.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "graphic",
+          "slug": "graphic"
+        },
+        {
+          "name": "hands",
+          "slug": "hands"
+        },
+        {
+          "name": "orange",
+          "slug": "orange"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/honeywave.jpg",
+        "public_url": "/wallpapers/kde/honeywave.jpg",
+        "sha256": "1906f4fd959cc371e9c187bc73fea21306864a920de76434d900dd1fffd62dba",
+        "file_size": 359990,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Honeywave/contents/images/5120x2880.jpg",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Ken Vermette",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Honeywave/contents/images/5120x2880.jpg",
+          "original_sha256": "e75adbd953e9b7dc8946223e7f1f2c4a9378496e7597198f65b095356995c7ad",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "JPEG",
+          "delivered_sha256": "1906f4fd959cc371e9c187bc73fea21306864a920de76434d900dd1fffd62dba",
+          "blob_sha": "ece9a1b394248936dfaef8f38d37353ada4229d4",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 38,
+      "title": "Ice Cold",
+      "slug": "ice-cold",
+      "description": "Angular ice forms in pale blue and white.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "geometric",
+          "slug": "geometric"
+        },
+        {
+          "name": "ice",
+          "slug": "ice"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/icecold.jpg",
+        "public_url": "/wallpapers/kde/icecold.jpg",
+        "sha256": "ab808c5f570f3038d8fd3e7023cc90eec464feaa36d30aa058f48cb4f2283204",
+        "file_size": 178090,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/IceCold/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Santiago Cézar",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "IceCold/contents/images/5120x2880.png",
+          "original_sha256": "4afa1ad1b249381c02d80602e005063371f2f18bc46b3b4ef3f37e06ee4ede50",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "ab808c5f570f3038d8fd3e7023cc90eec464feaa36d30aa058f48cb4f2283204",
+          "blob_sha": "236ca325bb0e79d0647106b002ec702b6cf91884",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 39,
+      "title": "Kay",
+      "slug": "kay",
+      "description": "A ribbon of cyan and gold cuts across a bright field.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "cyan",
+          "slug": "cyan"
+        },
+        {
+          "name": "graphic",
+          "slug": "graphic"
+        },
+        {
+          "name": "ribbon",
+          "slug": "ribbon"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/kay.jpg",
+        "public_url": "/wallpapers/kde/kay.jpg",
+        "sha256": "184d2422761bea0c54510fd00eb3a2bbb372fd8f7145e3c386b485ee9bce335a",
+        "file_size": 324433,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Kay/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "ruvkr",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Kay/contents/images/5120x2880.png",
+          "original_sha256": "a1548937191bc0c9b13c07a85d64988d1f391cbc16d02ad7709aff446a39ff5e",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "184d2422761bea0c54510fd00eb3a2bbb372fd8f7145e3c386b485ee9bce335a",
+          "blob_sha": "a735e455e2f947799705c4ddfb849f5e4a28f9a9",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 40,
+      "title": "Kite",
+      "slug": "kite",
+      "description": "A single kite floats in an open blue sky.",
+      "category": {
+        "name": "Minimalist",
+        "slug": "minimalist"
+      },
+      "tags": [
+        {
+          "name": "kite",
+          "slug": "kite"
+        },
+        {
+          "name": "minimal",
+          "slug": "minimal"
+        },
+        {
+          "name": "sky",
+          "slug": "sky"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/kite.jpg",
+        "public_url": "/wallpapers/kde/kite.jpg",
+        "sha256": "bdca288ce296a981e80659c021cf707caddc702c0c8d4247e60bd618476d47f8",
+        "file_size": 487350,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Kite/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Risto Saukonpää",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Kite/contents/images/2560x1600.jpg",
+          "original_sha256": "bdca288ce296a981e80659c021cf707caddc702c0c8d4247e60bd618476d47f8",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "bdca288ce296a981e80659c021cf707caddc702c0c8d4247e60bd618476d47f8",
+          "blob_sha": "11ee638e61bd80a89f7aa75fab663e52279e8f9a",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 41,
+      "title": "Kokkini",
+      "slug": "kokkini",
+      "description": "A rose-red wave arcs across a violet horizon.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "red",
+          "slug": "red"
+        },
+        {
+          "name": "violet",
+          "slug": "violet"
+        },
+        {
+          "name": "wave",
+          "slug": "wave"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/kokkini.jpg",
+        "public_url": "/wallpapers/kde/kokkini.jpg",
+        "sha256": "bf9fb8bc06c0bab7db87611a88633b11eee7cfc8ccdd0234ae42c8ca6340039c",
+        "file_size": 235467,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Kokkini/contents/images/3840x2160.png",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Ken Vermette",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Kokkini/contents/images/3840x2160.png",
+          "original_sha256": "685c96addd540da6b51a57887e4dcf53b216e139654528c1b27bb47a359439a4",
+          "original_width": 3840,
+          "original_height": 2160,
+          "original_format": "PNG",
+          "delivered_sha256": "bf9fb8bc06c0bab7db87611a88633b11eee7cfc8ccdd0234ae42c8ca6340039c",
+          "blob_sha": "afe42c3f1875c6bf7849d4d47785f29d62dbcec0",
+          "modification": "Resized from 3840x2160 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 42,
+      "title": "Milky Way",
+      "slug": "milky-way",
+      "description": "A field of stars glows above a deep magenta horizon.",
+      "category": {
+        "name": "Space",
+        "slug": "space"
+      },
+      "tags": [
+        {
+          "name": "magenta",
+          "slug": "magenta"
+        },
+        {
+          "name": "night",
+          "slug": "night"
+        },
+        {
+          "name": "stars",
+          "slug": "stars"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/milkyway.jpg",
+        "public_url": "/wallpapers/kde/milkyway.jpg",
+        "sha256": "ce07e8add4216afd16c6bb1ba499ecbc7a620258d12a0235ebb2ae125851eb08",
+        "file_size": 279500,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/MilkyWay/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "ruvkr",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "MilkyWay/contents/images/5120x2880.png",
+          "original_sha256": "184016d87d669dd8a98e6b32c641918762020e3734568a706475d73211b7215a",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "ce07e8add4216afd16c6bb1ba499ecbc7a620258d12a0235ebb2ae125851eb08",
+          "blob_sha": "8d0b9502dbbaccbef576f7f45d472e5e9667e752",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 43,
+      "title": "Mountain",
+      "slug": "mountain",
+      "description": "A dark mountain ridge under a cold, clear sky.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "cold",
+          "slug": "cold"
+        },
+        {
+          "name": "mountain",
+          "slug": "mountain"
+        },
+        {
+          "name": "ridge",
+          "slug": "ridge"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/mountain.jpg",
+        "public_url": "/wallpapers/kde/mountain.jpg",
+        "sha256": "c1fab9bd6eb27bd9a657aefbe83ebac8ec9a9906b5ad47de9bd64610531d1fd8",
+        "file_size": 229013,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Mountain/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Andy Betts",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Mountain/contents/images/5120x2880.png",
+          "original_sha256": "a80e07be9ac8c6e366eccdb68b16fb62dbee673a798e5d7721c791fbf3b146c3",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "c1fab9bd6eb27bd9a657aefbe83ebac8ec9a9906b5ad47de9bd64610531d1fd8",
+          "blob_sha": "223dcee9a8566db64b5b257c599139f185381601",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 44,
+      "title": "Nexus",
+      "slug": "nexus",
+      "description": "Violet planes converge around a narrow path of light.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "light",
+          "slug": "light"
+        },
+        {
+          "name": "planes",
+          "slug": "planes"
+        },
+        {
+          "name": "violet",
+          "slug": "violet"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/nexus.jpg",
+        "public_url": "/wallpapers/kde/nexus.jpg",
+        "sha256": "a886d4a419528f31ca4fb373409ddb477e96df62254e76b4cbcb05288e50e4b6",
+        "file_size": 155478,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Nexus/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Krystian Zajdel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Nexus/contents/images/5120x2880.png",
+          "original_sha256": "ec1bfef659d7e7e46ffc23b13fbf0105e577159aae6c6be6686eee785324c51a",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "a886d4a419528f31ca4fb373409ddb477e96df62254e76b4cbcb05288e50e4b6",
+          "blob_sha": "f38f074ae51364f276d0a7bdff0d0e4d91c0a3b0",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 45,
+      "title": "Nuvole",
+      "slug": "nuvole",
+      "description": "Layered pink and purple clouds fold into geometric ridges.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "clouds",
+          "slug": "clouds"
+        },
+        {
+          "name": "layered",
+          "slug": "layered"
+        },
+        {
+          "name": "pink",
+          "slug": "pink"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/nuvole.jpg",
+        "public_url": "/wallpapers/kde/nuvole.jpg",
+        "sha256": "71f5468de00a4e79801feb5524c738d7071afc36d191bbc0650ea71a198b59f6",
+        "file_size": 162103,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Nuvole/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Krystian Zajdel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Nuvole/contents/images/5120x2880.png",
+          "original_sha256": "33a3249941dba959e7e768fd9ca4c6c81964a8304b688dab3abbafcf6f58b32a",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "71f5468de00a4e79801feb5524c738d7071afc36d191bbc0650ea71a198b59f6",
+          "blob_sha": "c835e39bb5555aa15ec475d7cef5b3b5a7e2d048",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 46,
+      "title": "Opal",
+      "slug": "opal",
+      "description": "Iridescent planes meet in a soft diagonal fold.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "fold",
+          "slug": "fold"
+        },
+        {
+          "name": "iridescent",
+          "slug": "iridescent"
+        },
+        {
+          "name": "pastel",
+          "slug": "pastel"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/opal.jpg",
+        "public_url": "/wallpapers/kde/opal.jpg",
+        "sha256": "fc247dcc7b651b956aeaabef64b02a2304baa8a5758488400ce81ed9364f0818",
+        "file_size": 350283,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Opal/contents/images/3840x2160.png",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Ken Vermette",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Opal/contents/images/3840x2160.png",
+          "original_sha256": "d5f9873fe6398260025c8a55e6a394ffa82258404dbd3c759fed815fc685edc7",
+          "original_width": 3840,
+          "original_height": 2160,
+          "original_format": "PNG",
+          "delivered_sha256": "fc247dcc7b651b956aeaabef64b02a2304baa8a5758488400ce81ed9364f0818",
+          "blob_sha": "ada5e89c9f47260c27a87a1bd322c530002d2a6d",
+          "modification": "Resized from 3840x2160 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 47,
+      "title": "Orionids",
+      "slug": "orionids",
+      "description": "Bright meteors streak across a violet night sky.",
+      "category": {
+        "name": "Space",
+        "slug": "space"
+      },
+      "tags": [
+        {
+          "name": "meteors",
+          "slug": "meteors"
+        },
+        {
+          "name": "night",
+          "slug": "night"
+        },
+        {
+          "name": "violet",
+          "slug": "violet"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/orionids.jpg",
+        "public_url": "/wallpapers/kde/orionids.jpg",
+        "sha256": "4c08faae6f75014b0765fedbbc2342c1ef5471f37858e7685cf25ef812b94f67",
+        "file_size": 212548,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Orionids/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Krystian Zajdel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Orionids/contents/images/5120x2880.png",
+          "original_sha256": "c14990e99569258074231b70e0b773c8a74958300bc0661cbd3c48f703f5c1c4",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "4c08faae6f75014b0765fedbbc2342c1ef5471f37858e7685cf25ef812b94f67",
+          "blob_sha": "e867c2a63a7cbf54245df7c7591656887477edf1",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 48,
+      "title": "Pastel Hills",
+      "slug": "pastel-hills",
+      "description": "Low-poly hills soften into a peach and mint gradient.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "gradient",
+          "slug": "gradient"
+        },
+        {
+          "name": "hills",
+          "slug": "hills"
+        },
+        {
+          "name": "pastel",
+          "slug": "pastel"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/pastelhills.jpg",
+        "public_url": "/wallpapers/kde/pastelhills.jpg",
+        "sha256": "5f9a3d426ad1ce630f10242f16e058178a01bbe0f72c11f9ede9fddd57ced867",
+        "file_size": 166649,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/PastelHills/contents/images/3200x2000.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Lionel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "PastelHills/contents/images/3200x2000.jpg",
+          "original_sha256": "8a5f3dc3ddc75687b5cc83833acb1ec9ce0b03d6529b2dace584707485447506",
+          "original_width": 3200,
+          "original_height": 2000,
+          "original_format": "JPEG",
+          "delivered_sha256": "5f9a3d426ad1ce630f10242f16e058178a01bbe0f72c11f9ede9fddd57ced867",
+          "blob_sha": "e6b8c13775f806957bb9c1ef636f53177f875027",
+          "modification": "Resized from 3200x2000 to 2560x1600 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 49,
+      "title": "Patak",
+      "slug": "patak",
+      "description": "A bold teal channel cuts between orange geometric banks.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "graphic",
+          "slug": "graphic"
+        },
+        {
+          "name": "orange",
+          "slug": "orange"
+        },
+        {
+          "name": "teal",
+          "slug": "teal"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/patak.jpg",
+        "public_url": "/wallpapers/kde/patak.jpg",
+        "sha256": "761867e5a9f3e457eb3247722f3ad41e9367680a55bbbdf2d3e7b2ddfdb8a137",
+        "file_size": 500358,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Patak/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Áron Kovács",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Patak/contents/images/5120x2880.png",
+          "original_sha256": "3486cb21a883ec2ea114d985d5814a8c47ca8b33be5d9b3b9bee38bdc983db8c",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "761867e5a9f3e457eb3247722f3ad41e9367680a55bbbdf2d3e7b2ddfdb8a137",
+          "blob_sha": "17d81a54d87134611c8772f3458908a80f7d822b",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 50,
+      "title": "Path",
+      "slug": "path",
+      "description": "A quiet trail winds through a dense green forest.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "forest",
+          "slug": "forest"
+        },
+        {
+          "name": "green",
+          "slug": "green"
+        },
+        {
+          "name": "trail",
+          "slug": "trail"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/path.jpg",
+        "public_url": "/wallpapers/kde/path.jpg",
+        "sha256": "7477457d7f17b736259f1b021864778ad4ba802cf3214e6728181ff29126bba8",
+        "file_size": 910087,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Path/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Risto Saukonpää",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Path/contents/images/2560x1600.jpg",
+          "original_sha256": "7477457d7f17b736259f1b021864778ad4ba802cf3214e6728181ff29126bba8",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "7477457d7f17b736259f1b021864778ad4ba802cf3214e6728181ff29126bba8",
+          "blob_sha": "e4cf5d8206e9b73bb601be9037fe8685b6112e41",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 51,
+      "title": "Safe Landing",
+      "slug": "safe-landing",
+      "description": "A red camper pauses in a bright illustrated valley.",
+      "category": {
+        "name": "Illustration",
+        "slug": "illustration"
+      },
+      "tags": [
+        {
+          "name": "colorful",
+          "slug": "colorful"
+        },
+        {
+          "name": "illustration",
+          "slug": "illustration"
+        },
+        {
+          "name": "travel",
+          "slug": "travel"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/safelanding.jpg",
+        "public_url": "/wallpapers/kde/safelanding.jpg",
+        "sha256": "99a3db1b550adfce3967fdce63288c3e0c3bb900a4a35cdeeeef3ceda5075171",
+        "file_size": 1164485,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/SafeLanding/contents/images/5120x2880.jpg",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Louis Durrant",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "SafeLanding/contents/images/5120x2880.jpg",
+          "original_sha256": "7341ff2532d1a13a2ba35f2a9219a2c6cb070446f1aae4ce9a3a981c3bedd32f",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "JPEG",
+          "delivered_sha256": "99a3db1b550adfce3967fdce63288c3e0c3bb900a4a35cdeeeef3ceda5075171",
+          "blob_sha": "a2222d44d9331e37b583c2a6f8694c16da0431bb",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 52,
+      "title": "Scarlet Tree",
+      "slug": "scarlet-tree",
+      "description": "A scarlet tree rises above a pastel illustrated landscape.",
+      "category": {
+        "name": "Illustration",
+        "slug": "illustration"
+      },
+      "tags": [
+        {
+          "name": "illustration",
+          "slug": "illustration"
+        },
+        {
+          "name": "pastel",
+          "slug": "pastel"
+        },
+        {
+          "name": "tree",
+          "slug": "tree"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/scarlettree.jpg",
+        "public_url": "/wallpapers/kde/scarlettree.jpg",
+        "sha256": "5baa39c0135553b69e6de25e367b9745d2ac8b46da8ac67a39be83d9bb914653",
+        "file_size": 271932,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/ScarletTree/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "axo1otl",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "ScarletTree/contents/images/5120x2880.png",
+          "original_sha256": "e5be8d475ad552c1a8dc0fab6fb068d9e6bbb278d600d0be838654536e40ae4a",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "5baa39c0135553b69e6de25e367b9745d2ac8b46da8ac67a39be83d9bb914653",
+          "blob_sha": "e96e8f7c31fd91ab323c59b8526128666b1492df",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 53,
+      "title": "Shell",
+      "slug": "shell",
+      "description": "Layered blue planes fold into a soft abstract shell.",
+      "category": {
+        "name": "Abstract",
+        "slug": "abstract"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "fold",
+          "slug": "fold"
+        },
+        {
+          "name": "layered",
+          "slug": "layered"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/shell.jpg",
+        "public_url": "/wallpapers/kde/shell.jpg",
+        "sha256": "9ba23e4878756f35c70f505b9920c5a9027a448de6e3c92eb32cd0f80c8e9b13",
+        "file_size": 363095,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Shell/contents/images/5120x2880.jpg",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Lucas Andrade",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Shell/contents/images/5120x2880.jpg",
+          "original_sha256": "220d5fe725453dba2329b6733cb7094d8615f2e0bbbb8a150e9f113101c02213",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "JPEG",
+          "delivered_sha256": "9ba23e4878756f35c70f505b9920c5a9027a448de6e3c92eb32cd0f80c8e9b13",
+          "blob_sha": "a3850ad10292d107de1742329b08854f4f745ad8",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 54,
+      "title": "Volna",
+      "slug": "volna",
+      "description": "A surf line curls along a pale shore.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "shore",
+          "slug": "shore"
+        },
+        {
+          "name": "water",
+          "slug": "water"
+        },
+        {
+          "name": "wave",
+          "slug": "wave"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/volna.jpg",
+        "public_url": "/wallpapers/kde/volna.jpg",
+        "sha256": "532cd284bdeeeb76ff27a7898f0e3c7ee08e10f6eaafdf146a0a3bfa521652db",
+        "file_size": 416810,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Volna/contents/images/5120x2880.jpg",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Nikita Babin",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Volna/contents/images/5120x2880.jpg",
+          "original_sha256": "abc30b4fc6f6a83b6156e6b59ac283c067de40af820aafac8ac7c4fd83a9607c",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "JPEG",
+          "delivered_sha256": "532cd284bdeeeb76ff27a7898f0e3c7ee08e10f6eaafdf146a0a3bfa521652db",
+          "blob_sha": "a978a9f83b2a21abc8bdd5a3a8970d43d1331dce",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 55,
+      "title": "Waterfall",
+      "slug": "waterfall",
+      "description": "An illustrated waterfall pours through a cool blue landscape.",
+      "category": {
+        "name": "Illustration",
+        "slug": "illustration"
+      },
+      "tags": [
+        {
+          "name": "blue",
+          "slug": "blue"
+        },
+        {
+          "name": "illustration",
+          "slug": "illustration"
+        },
+        {
+          "name": "waterfall",
+          "slug": "waterfall"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/waterfall.jpg",
+        "public_url": "/wallpapers/kde/waterfall.jpg",
+        "sha256": "610e57f47ecdb07d9dd4c8d5fe3243ca77adccc98aed328156b27dadecef430e",
+        "file_size": 174317,
+        "width": 2560,
+        "height": 1440,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/Waterfall/contents/images/5120x2880.png",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "documented",
+        "id": "CC-BY-SA-4.0",
+        "text_path": "Front End Project/public/licenses/CC-BY-SA-4.0.txt"
+      },
+      "attribution": {
+        "author": "Krystian Zajdel",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "Waterfall/contents/images/5120x2880.png",
+          "original_sha256": "535b88c9ace739d14092de5ad02d7cd89c25ab72d5b62e370337320e4cf954bb",
+          "original_width": 5120,
+          "original_height": 2880,
+          "original_format": "PNG",
+          "delivered_sha256": "610e57f47ecdb07d9dd4c8d5fe3243ca77adccc98aed328156b27dadecef430e",
+          "blob_sha": "882397f89612d60619be52d1b462baab7b680fc8",
+          "modification": "Resized from 5120x2880 to 2560x1440 and re-encoded as JPEG (quality 90).",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    },
+    {
+      "source_id": 56,
+      "title": "summer 1am",
+      "slug": "summer-1am",
+      "description": "A lavender dusk settles over a still lake and field.",
+      "category": {
+        "name": "Nature",
+        "slug": "nature"
+      },
+      "tags": [
+        {
+          "name": "lake",
+          "slug": "lake"
+        },
+        {
+          "name": "lavender",
+          "slug": "lavender"
+        },
+        {
+          "name": "sunset",
+          "slug": "sunset"
+        }
+      ],
+      "image": {
+        "source_path": "Front End Project/public/wallpapers/kde/summer-1am.jpg",
+        "public_url": "/wallpapers/kde/summer-1am.jpg",
+        "sha256": "c868b50789591dd42910153c768053f1ba0a98cb36bbfc2b7a96a1045d0477f8",
+        "file_size": 442791,
+        "width": 2560,
+        "height": 1600,
+        "format": "JPEG"
+      },
+      "source_url": "https://github.com/KDE/plasma-workspace-wallpapers/blob/3e4537eb3852a1c769f6fa003e74d06260c266fb/summer_1am/contents/images/2560x1600.jpg",
+      "license": {
+        "name": "LGPLv3",
+        "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+        "status": "documented",
+        "id": "LGPL-3.0-only",
+        "text_path": "Front End Project/public/licenses/LGPL-3.0.txt"
+      },
+      "attribution": {
+        "author": "Risto Saukonpää",
+        "collection": "KDE Plasma Workspace Wallpapers",
+        "upstream": {
+          "commit": "3e4537eb3852a1c769f6fa003e74d06260c266fb",
+          "original_path": "summer_1am/contents/images/2560x1600.jpg",
+          "original_sha256": "c868b50789591dd42910153c768053f1ba0a98cb36bbfc2b7a96a1045d0477f8",
+          "original_width": 2560,
+          "original_height": 1600,
+          "original_format": "JPEG",
+          "delivered_sha256": "c868b50789591dd42910153c768053f1ba0a98cb36bbfc2b7a96a1045d0477f8",
+          "blob_sha": "6c60a2b39ec13b1c5aa73808097c9525c5f540f9",
+          "modification": "",
+          "retrieved": "2026-10-19"
+        }
+      },
+      "status": "published"
+    }
+  ],
+  "problems": []
+}
